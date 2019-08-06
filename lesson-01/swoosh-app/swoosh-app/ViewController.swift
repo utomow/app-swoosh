@@ -10,8 +10,17 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    @IBOutlet weak internal var swoosh: UIImageView!
+    
+    @IBOutlet weak internal var bgImage: UIImageView!
+
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+    }
+    
+    @IBAction func unwindFromLeague(unwindSegue: UIStoryboardSegue) {
         
     }
 }
