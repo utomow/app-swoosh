@@ -9,10 +9,6 @@
 import UIKit
 
 class WelcomeVC: UIViewController {
-    
-    @IBOutlet weak internal var swoosh: UIImageView!
-    
-    @IBOutlet weak internal var bgImage: UIImageView!
 
     
     override func viewDidLoad() {
