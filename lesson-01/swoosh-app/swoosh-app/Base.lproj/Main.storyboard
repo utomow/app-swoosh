@@ -10,10 +10,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--WelcomeVC-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="swoosh_app" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="WelcomeVC" customModule="swoosh_app" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -91,10 +91,10 @@
             </objects>
             <point key="canvasLocation" x="138.28125" y="126.0614934114202"/>
         </scene>
-        <!--View Controller-->
+        <!--LeagueVC-->
         <scene sceneID="EW0-kW-dmy">
             <objects>
-                <viewController id="Lo3-f1-yh3" sceneMemberID="viewController">
+                <viewController id="Lo3-f1-yh3" customClass="LeagueVC" customModule="swoosh_app" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="jko-g7-G3I">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -103,13 +103,13 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleAspectFill" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" axis="vertical" distribution="equalSpacing" spacing="52" translatesAutoresizingMaskIntoConstraints="NO" id="O1e-nG-pus">
-                                <rect key="frame" x="16" y="30" width="343" height="93"/>
+                                <rect key="frame" x="16" y="30" width="343" height="97"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="swooshLogo" translatesAutoresizingMaskIntoConstraints="NO" id="TuI-Gy-UuI">
-                                        <rect key="frame" x="0.0" y="0.0" width="343" height="16"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="343" height="20"/>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Desired League:" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XPE-sk-wYk">
-                                        <rect key="frame" x="0.0" y="68" width="343" height="25"/>
+                                        <rect key="frame" x="0.0" y="72" width="343" height="25"/>
                                         <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="18"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
@@ -117,7 +117,7 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleAspectFill" axis="vertical" spacing="28" translatesAutoresizingMaskIntoConstraints="NO" id="zH9-bH-hrx">
-                                <rect key="frame" x="16" y="173" width="343" height="206"/>
+                                <rect key="frame" x="16" y="177" width="343" height="206"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5li-Mk-djf" customClass="BorderButton" customModule="swoosh_app" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="343" height="50"/>
@@ -205,16 +205,16 @@
             </objects>
             <point key="canvasLocation" x="836" y="125.4872563718141"/>
         </scene>
-        <!--View Controller-->
+        <!--SkillVC-->
         <scene sceneID="jMs-v6-USm">
             <objects>
-                <viewController id="NhT-bm-AHf" sceneMemberID="viewController">
+                <viewController id="NhT-bm-AHf" customClass="SkillVC" customModule="swoosh_app" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleAspectFill" id="UfN-2d-WSe">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="beginnerBallerBG" translatesAutoresizingMaskIntoConstraints="NO" id="6XX-Gl-zTJ">
-                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" insetsLayoutMarginsFromSafeArea="NO" image="beginnerBallerBG" translatesAutoresizingMaskIntoConstraints="NO" id="6XX-Gl-zTJ">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="52" translatesAutoresizingMaskIntoConstraints="NO" id="cpH-Fk-TMI">
                                 <rect key="frame" x="16" y="30" width="343" height="97"/>
@@ -273,7 +273,7 @@
                         <constraints>
                             <constraint firstItem="oYC-Vp-hzM" firstAttribute="leading" secondItem="Zfj-mI-FMX" secondAttribute="leading" constant="16" id="2a7-ke-G5L"/>
                             <constraint firstItem="6XX-Gl-zTJ" firstAttribute="trailing" secondItem="UfN-2d-WSe" secondAttribute="trailing" id="M5V-oB-xyb"/>
-                            <constraint firstItem="6XX-Gl-zTJ" firstAttribute="top" secondItem="UfN-2d-WSe" secondAttribute="topMargin" id="NLL-zI-gfg"/>
+                            <constraint firstItem="6XX-Gl-zTJ" firstAttribute="top" secondItem="UfN-2d-WSe" secondAttribute="top" id="NLL-zI-gfg"/>
                             <constraint firstItem="BMd-FT-e3f" firstAttribute="leading" secondItem="Zfj-mI-FMX" secondAttribute="leading" constant="25" id="Ui2-wF-flo"/>
                             <constraint firstItem="cpH-Fk-TMI" firstAttribute="leading" secondItem="Zfj-mI-FMX" secondAttribute="leading" constant="16" id="Ygt-gu-kNA"/>
                             <constraint firstItem="6XX-Gl-zTJ" firstAttribute="bottom" secondItem="UfN-2d-WSe" secondAttribute="bottom" id="YlJ-PQ-fQh"/>
